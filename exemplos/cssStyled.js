@@ -100,10 +100,10 @@ class App extends Component {
       <div className="App">
         <h1>Hi, I'm a React App</h1>
         <p className={classes.join(' ')}>This is really working!</p>
-        <button
-          className="button"
+        <StyledButton
+          alt={this.state.showPersons}
           onClick={this.togglePersonHandler}>Toggle Person
-        </button>
+        </StyledButton>
         {persons}
       </div>
     );
@@ -111,3 +111,8 @@ class App extends Component {
 }
 
 export default App;
+
+
+
+
+
