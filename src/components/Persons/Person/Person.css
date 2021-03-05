@@ -1,0 +1,47 @@
+.Person {
+    width     : 60%;
+    margin    : auto;
+    border    : 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    padding   : 16px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Person button {
+    background-color: white;
+    font: inherit;
+    border: 1px solid blue;
+    padding: 8px;
+    cursor: pointer;
+    margin-left: 20px;
+    color: black;
+}
+
+.Person button:hover {
+    background-color: white;
+    font: inherit;
+    border: 1px solid blue;
+    padding: 8px;
+    cursor: pointer;
+    margin-left: 20px;
+    color: black;
+}
+
+@media (min-width: 500px) {
+    .Person{
+        width: 300px;
+    }
+}
+
+@media (min-width: 800px) {
+    .Person{
+        width: 600px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .Person{
+        width: 1000px;
+    }
+}
